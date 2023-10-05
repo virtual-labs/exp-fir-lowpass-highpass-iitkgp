@@ -24,7 +24,7 @@ PoleZero and No poles/zeroes for FIR filters </br>
 <img src="images/exp8_3.png"  /> </br>
 
 
-Select FIR from Type and select Calculation as Highpass </br>
+8. Select FIR from Type and select Calculation as Highpass </br> </br> </br>
 Magnitude Percent and Magnitude dB </br>
 <img src="images/exp8_4.png"  /> </br>
 Group Delay and Impulse Response </br>
