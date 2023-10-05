@@ -1,7 +1,7 @@
 
 ## Theory
 
-<div class="content" id="experiment-article-section-2-content">                            
+<div>                            
                             <p>Finite Impulse Response (FIR) Filter</p>
                             <p  class="heading-content">FIR filters are digital filters with finite impulse response. They are also known as non-recursive digital filters as 
                                 they do not have the feedback (a recursive part of a filter), even though recursive algorithms can be used for FIR filter 
@@ -60,10 +60,15 @@
                             <p> &omega;<sub></sub> is normalized frequency.</p>
                             <p>Specifications for high-pass, band-pass and band-stop filters are defined almost the same way as those for low-pass filters.
                                 Figure 3.a and 3.b illustrates a high-pass filter specification</p>
+
                             <center><img style="width:364px;height:245px;" src="images/pic-4.png" alt="" /><br/>
+
                                 Figure 3.b: High-pass digital filter specification</center>
+
                              <center><img style="width:385px;height:235px;" src="images/pic-5.png" alt="" /><br/>
+
                                 Figure 3.b: High-pass digital filter specification</center>
+
                             <p  class="heading-content">Comparing these two figures 2.a, 2.b and 3.a, 3.b, it is obvious that low-pass and high-pass filters have similar 
                                 specifications. The same values are defined in both cases with the difference that in the later case the pass band is 
                                 substituted by the stop band and vice versa.</p>
@@ -85,12 +90,18 @@
                                 be performed in a finite number of points. As the ideal filter frequency response is infinite, it is easy to produce 
                                 sampling errors. The error is less as the filter order increases. Figure 4.a and 4.b illustrates the transfer functions of 
                                 two standard ideal filters</p>
+
                             <center><img style="width:654px;height:295px;" src="images/pic-6.png" alt="" /><br/>
+
                                  Figure 4.a and 4.b: Transfer functions of two standard ideal filters </center>
+
                             <p>The ideal filter frequency response can be computed via inverse Fourier transform. The two standard ideal filters frequency
                                 responses are contained in the table 1 below.</p>
+
                            <center><img style="width:502px;height:219px;" src="images/pic-7.png" alt="" /><br/>
+
                                    Table 1: The frequency responses of two standard ideal filters</center>
+
                             <p>The value of variable n ranges between 0 and N, where N is the filter order. A constant M can be expressed as M = N / 2. 
                                 Equivalently, N can be expressed as N = 2M</p>
                             <p  class="heading-content">The constant M is an integer if the filter order N is even, which is not the case with odd order filters. If M is an 
@@ -155,18 +166,25 @@
                             <p  class="heading-content">However, a drawback of this method is that the minimum stop band attenuation is fixed for each function. The following 
                                 concepts such as the main lobe, main lobe width, side lobes, transition region, minimum stopband attenuation of window 
                                 function and minimum stopband attenuation of designed filter are described in more detail in Figure 5</p>
+
                              <center><img style="width:691px;height:261px;" src="images/pic-9.png" alt="" /><br/>
+
                               Figure 5: Main lobe, main lobe width, side lobes, transition region</center>
+
                             <p  class="heading-content">As can be seen in the table 2 above, the stopband attenuation of these windows is not adjustable. It is only possible to
                                 affect the transition region by increasing the filter order. For this reason it is preferable to start design process by 
                                 specifying the appropriate window function on the basis of the stopband attenuation. It is most preferable to specify a 
                                 window with the least stopband attenuation that satisfies the given requirements. This enables the designed filter to have 
                                 the narrowest transition region</p>
+
                             <center><img style="width:662px;height:310px;" src="images/pic-10.png" alt="" /></center>
+
                             <p>Frequency Response and Weight Values of different windows types</p> 
+
                              <center><img style="width:667px;height:264px;" src="images/pic-11.png" alt="" /></center>
+
                             <p>This image is taken from "http://www.labbookpages.co.uk/audio/firwindowing.html"</p>
-                            <p></p>
+                            
                             
                         </div>
 
