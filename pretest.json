@@ -1,0 +1,107 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "In FIR filter design, which of the following windows gives least peak side lobe level assuming equal width of the windows?",
+      "answers": {
+        "a": "Rectangular",
+        "b": "Barlett",
+        "c": "Hamming",
+        "d": "Hanning"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In bilinear transformation, the left-half S-plane is mapped to which of the following in the z-domain?",
+      "answers": {
+        "a": "Entirely outside unit circle |z| = 1",
+        "b": "Partially outside the unit circle |z| = 1",
+        "c": "Partially inside the unit circle |z| = 1",
+        "d": "Entirely insider the unit circle |z| = 1"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If a filter has 60 dB bandwidth of 10 kHz and 3 dB bandwidth of 4 kHz, the shape factor will be _______.",
+      "answers": {
+        "a": "2",
+        "b": "4",
+        "c": "1.5",
+        "d": "2.5"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What will be the minimum numbers of tap require to realize a FIR filter having fpass = 10 kHz and fstop = 15 kHz, 0.1 dB pass band ripple and 60 dB attenuation in stop band. The sampling frequency is 200 kHz.",
+      "answers": {
+        "a": "110",
+        "b": "100",
+        "c": "90",
+        "d": "120"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which filters exhibit their dependency upon the system design for stability purposes?",
+      "answers": {
+        "a": "IIR",
+        "b": "FIR",
+        "c": "Both (a) and (b)",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following condition should the unit sample response of a FIR filter satisfy to have a linear phase?",
+      "answers": {
+        "a": "h(M-1-n) n=0,1,2…M-1",
+        "b": "±h(M-1-n) n=0,1,2…M-1",
+        "c": "-h(M-1-n) n=0,1,2…M-1",
+        "d": "None of the mentioned"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
