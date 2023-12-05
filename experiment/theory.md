@@ -56,7 +56,9 @@ $$a_p=20log_{10}(\frac{1+\delta_1}{1-\delta_1})$$
 $$a_s=-20log_{10}\delta_1$$
 
 <p>Frequency normalization can be expressed as follows: </p>
-<p><p style="text-align:center">`omega=(2pif/f_s)`</p>
+
+$$\omega=(2\pi \frac{f}{f_s})$$
+
 <p>where:</p>
 <p>f<sub>s</sub>is a sampling frequency;</p>  
 <p>f is a frequency to normalize; and</p>
@@ -113,7 +115,10 @@ expression shown in the table 1 above. If M is not an integer, the ideal filter 
 but not about some frequency response sample</p>
 <p>Since the variable n ranges between 0 and N, the ideal filter frequency response has N+1 sample</p>
 <p>If it is needed to find frequency response of a non-standard ideal filter, the expression for inverse Fourier transform 
-must be used: </p><p style="text-align:center">`h_d[n]=1/pi int_(0)^(pi)e^(jomega(n-M))domega`</p>
+must be used:
+  
+$$h_d[n]=\frac{1}{\pi} \int_{0}^\pi e^{j \omega(n-M)}d \omega$$
+  
 <p>Non-standard filters are rarely used. However, if there is a need to use some of them, the integral above must be computed
 via various numerical methods</p>
 <p>FIR filter design using window functions</p>
@@ -135,9 +140,16 @@ specifications.</p>
 using the formula for the specified window function</p>
 <p  class="heading-content">After estimating the window function coefficients, it is necessary to find the ideal filter frequency samples. The final
 objective of this step is to obtain the coefficients hd[n]. Two sequences w[n] and hd[n] have the same number of elements.</p>
-<p>The next step is to compute the frequency response of designed filter h[n] using the following expression:</p><p style="text-align:center">`h[n]=w[n].h_d[n]`</p>
-<p  class="heading-content">Lastly, the transfer function of designed filter will be found by transforming impulse response via Fourier 
-transform:</p><p style="text-align:center">`H(e^(jomega))=sum_(n=0)^(N)h[n].e^(-jnomega)`</p>
+<p>The next step is to compute the frequency response of designed filter h[n] using the following expression:</p>
+
+$$h[n]=w[n].h_d[n]$$
+
+<p  class="heading-content">Lastly, the transfer function of designed filter will be found by transforming impulse response via Fourier
+  
+transform:
+
+$$H(e^{j \omega})=\sum_{n=0}^Nh[n].e^{-jn\omega}$$
+
 <p  class="heading-content">If the transition region of designed filter is wider than needed, it is necessary to increase the filter order, 
 reestimate the window function coefficients and ideal filter frequency samples, multiply them in order to obtain 
 the frequency response of designed filter and reestimate the transfer function as well. If the transition region is 
