@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Consider the following circuits and arrange them in ascending order of their complexity. A. First order low pass filter B. Sallen‐Key filter C. Fourth order Butterworth low pass filter D. Non‐inverting amplifier Choose the correct answer from the options given below",
+      "answers": {
+        "a": "D, A, C, B",
+        "b": "D, A, B, C",
+        "c": "C, B, A, D",
+        "d": "B, C, D, A"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following statements are correct? A. If the intermediate frequency is too high, poor selectivity results even if sharp cutoff filters are used in the IF stage. B. A high value of intermediate frequency increases tracking difficulties. C. As the intermediate frequency is lowered, image frequency rejection becomes better. D. A very low intermediate frequency can make the selectivity too sharp. Choose the correct answer from the options given below:",
+      "answers": {
+        "a": "A and B only",
+        "b": "B and C only",
+        "c": "C and D only",
+        "d": "B and D only"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the roll-off rate of voltage gain vs frequency of a second order low pass filter?",
+      "answers": {
+        "a": "-6dB/octave",
+        "b": "-12dB/octave",
+        "c": "-6dB/decade",
+        "d": "-12dB/decade"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Constant Phase Delay filter is",
+      "answers": {
+        "a": "Butterworth filter",
+        "b": "Chebyshev filter",
+        "c": "Elliptic filter",
+        "d": "Bessel filter"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which one of the following is the advantage of FIR filter over IIR filter ?",
+      "answers": {
+        "a": "FIR filter can have an exact linear phase",
+        "b": "FIR filter is always unstable",
+        "c": "For FIR filter, the design methods are non-linear",
+        "d": "FIR filter cannot be realized efficiently in hardware"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
